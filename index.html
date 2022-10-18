@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg">
+        <img src="./img/dots.png" class="bg__img bg__img--dots">
+        <img src="./img/button.png" class="bg__img bg__img--button">
+    </div>
+    <header>
+        <h1>
+            <span class="header_text">KALAMATA<sub>LANDSCAPES</sub></span>
+        </h1>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="top-row">
+                <div class="arrow left-arrow">
+                    <p>&lt;</p>
+                </div>
+                <div class="slides-container">
+                    <img src="./img/photos/photo1.jpg" id="slide1" class="slide active">
+                    <img src="./img/photos/photo2.jpg" id="slide2" class="slide">
+                    <img src="./img/photos/photo3.jpg" id="slide3" class="slide">
+                </div>
+                <div class="arrow right-arrow">
+                    <p>&gt;</p>
+                </div>
+            </div>
+            <div class="bottom-row">
+                <div class="dots">
+                    <div class="dot" id="dot1"></div>
+                    <div class="dot" id="dot2"></div>
+                    <div class="dot" id="dot3"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
